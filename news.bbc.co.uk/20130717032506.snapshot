@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<!-- __ _ _ _ __| |_ (_)__ _____ 
+    / _` | '_/ _| ' \| |\ V / -_)
+    \__,_|_| \__|_||_|_| \_/\___| -->
+<head>
+  <title>Welcome to the US Petabox</title>
+    <link rel="stylesheet" href="/stylesheets/archive.css?v=51519" type="text/css"/>
+  <link rel="SHORTCUT ICON" href="/images/glogo.jpg"/>
+</head>
+<body class="Unity" >
+   
+<!--BEGIN HEADER 1-->
+<table id="nunuh1" cellspacing="0" width="100%" border="0" cellpadding="0">
+  <tbody>
+    <tr> 
+      <td id="logo">
+        <a href="/"><img title="Internet Archive" alt="Internet Archive"
+                         src="/images/glogo2.png"/></a>
+      </td>
+      <td valign="bottom" id="navbg">
+        <table width="100%" border="0" cellpadding="5">
+          <tr> 
+            <td class="level1Header">
+                            <div class="tabsel backColor1">
+                <a href="/">US Cluster</a>
+              </div>
+                          </td>
+          </tr>
+        </table>
+      </td>
+      <td style="width:80px; height:72px; vertical-align:middle; text-align:right">
+        <a href="/"><img title="(navigation image)" alt="(navigation image)" id="TRimg" src="/images/petabox-header.png"/></a>      </td>
+    </tr>
+  </tbody>
+</table>
+
+     
+     
+
+<!--BEGIN HEADER 3-->
+<div class="level3HeaderColorBar"> </div>
+<table cellspacing="0" width="100%" border="0" cellpadding="0">
+  <tbody>
+    <tr> 
+      <td class="level3Header level3HeaderLeft">
+        <form style="margin:0;padding:0;" action="http://archive.org/searchresults.php" id="searchform" method="post">
+          <b>Search:</b>
+          <input tabindex="1" size="25" name="search" value="" style="font-size: 8pt"/>
+          <select tabindex="2" style="PADDING-TOP: 2px; font-size: 8pt;" name="mediatype">
+            <option value="all">All Media Types</option>
+            <option  value="web">&nbsp;&nbsp;Wayback Machine</option>
+            
+            <option  value="movies">&nbsp;&nbsp;Moving Images</option>
+<option  value="texts">&nbsp;&nbsp;Texts</option>
+<option  value="audio">&nbsp;&nbsp;Audio</option>
+<option  value="education">&nbsp;&nbsp;Education</option>
+            
+            <option value="forums" >Forums</option>
+            <option value="faqs"   >FAQs</option>
+          </select>
+          <input tabindex="3" style="vertical-align:bottom; text-align:center; width:21px; height:21px; border:0px" name="gobutton" type="image" id="gobutton" value="Find" src="/images/go-button-gateway.gif"/>
+          <input type="hidden" name="limit" value="100"/>
+          <input type="hidden" name="start" value="0"/>
+          <input type="hidden" name="searchAll" value="yes"/>
+          <input type="hidden" name="submit" value="this was submitted"/>
+          <a href="http://archive.org/advancedsearch.php" class="level3Header level3HeaderSearch">Advanced Search</a>
+        </form>
+      </td>
+
+      
+      
+
+            <td class="level3Header level3HeaderUser2">
+        <b>
+          Anonymous User        </b>
+        <span style="font-size:7pt; white-space:nowrap">
+          (<a class="level3Header" href="https://archive.org/account/login.php">login</a>
+          or
+          <a class="level3Header" href="https://archive.org/account/login.createaccount.php">
+            join us</a>)
+        </span>
+      </td>
+            
+  
+
+      <!--upload files button-->
+            <td class="level3Header level3HeaderUser2">
+        <a alt="Share your Files with the Internet Archive" title="Share your Files with the Internet Archive" href="http://archive.org/create/"><div class="buttonB">Upload</div></a>
+      </td>
+      
+    </tr>
+  </tbody>
+</table>
+
+<div id="begPgSpcr" style="padding-bottom:17px;"></div>
+
+<!--BEGIN PAGE-->
+<table style="width:100%;"><tbody><tr><td style="width:10%">&nbsp;</td><td style="width:80%">
+
+<div class="box" style="">
+
+
+<h1>Welcome to the US Petabox</h1>
+
+<p><a href="http://archive.org/">archive.org</a></p>
+
+
+  
+</div><!--end class=box-->
+
+</td><td>&nbsp;</td></tr></tbody></table>
