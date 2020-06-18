@@ -42,7 +42,7 @@ def guardian_headline_finder(r):
     
     return clean_headlines_list
 
-def daily_guardian_headlines(date):
+def daily_guardian_headlines(date, api_key):
     #uses the guardian api to return a selection of article titles from any given day
     r_business = requests.get('https://content.guardianapis.com/search?from-date=' + date + "&to-date=" + date + "&production-office=uk&section=business&page-size=50&&api-key=" + api_key)
     r_tech     = requests.get('https://content.guardianapis.com/search?from-date=' + date + "&to-date=" + date + "&production-office=uk&section=technology&page-size=50&&api-key=" + api_key)
