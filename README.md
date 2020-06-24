@@ -12,7 +12,7 @@ Finally, I incorporated this new data into the models, to see if it improved the
 <img src='Pictures/BaselineFTSEPlot.png'>
 </details>
 
-
+![](Pictures/BaselineFTSEPlot.png)
 # Findings
 
 Although my finding on the S&P were inconclusive, my FTSE model was improved by more than 2%. 
