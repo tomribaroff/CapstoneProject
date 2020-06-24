@@ -18,6 +18,8 @@ Given that this was a relatively simple framework, I would make the business rec
 
 ![](Pictures/After.png)
 
+This plot displays the validation set (2018 & 2019), and I used its MSE as my comparison to the previous Model.  
+
 Please feel free to look through my ProjectNotebook file for a much more detailed look at the project, or simply read my blog post of a walk through my project:
 
 https://medium.com/@tomribaroff/improving-stock-market-predictions-using-natural-language-processing-120d1fdc0ff4
