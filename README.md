@@ -1,6 +1,33 @@
-# CapstoneProject
+# Overview
 
-This README is an explanation for the context of this repository:
+In this project, I attempted to improve LSTM models making predictions on the price of the FTSE100 and S&P500. I theorised that they might be improved by encorporating some measure of the population's confidence in the economy, which might be mirrored by the tone of the newspapers they read.
+
+First, I build baseline models to predict the movement of these two indexes, training the model only on past prices.
+
+Then, I analysed the tone of Newspaper Headlines over the same period of time, using TextBlob, a NLP Toolkit.
+
+Finally, I incorporated this new data into the models, to see if it improved their predictive power.
+
+<details><summary>Baseline FTSE Plot</summary>
+<img src='Pictures/BaselineFTSEPlot.png'>
+</details>
+
+
+# Findings
+
+Although my finding on the S&P were inconclusive, my FTSE model was improved by more than 2%. 
+
+Given that this was a relatively simple framework, I would make the business recommendation that this was worth some further investigation. Due to the stociatic nature of LSTM models (giving slightly different results everytime), the first step would be to invest in some extra computing power (cloud computing would my recommeded option) to train these models repeated, and get a more conclusive result into the power of this method.
+
+<details><summary>After adding Newspaper Data</summary>
+<img src='Pictures/After.png'>
+</details>
+
+Please feel free to look through my ProjectNotebook file for a much more detailed look at the project, or simply read my blog post of a walk through my project:
+
+https://medium.com/@tomribaroff/improving-stock-market-predictions-using-natural-language-processing-120d1fdc0ff4
+
+# Repository Contents
 
 ProjectNotebook.ipynb is a Jupyter Notebook File with detailed code of the entire project. It includes the Abstract for project's results, as well as an in depth look at the code involved. 
 
