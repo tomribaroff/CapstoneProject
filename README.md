@@ -8,20 +8,15 @@ Then, I analysed the tone of Newspaper Headlines over the same period of time, u
 
 Finally, I incorporated this new data into the models, to see if it improved their predictive power.
 
-<details><summary>Baseline FTSE Plot</summary>
-<img src='Pictures/BaselineFTSEPlot.png'>
-</details>
-
 ![](Pictures/BaselineFTSEPlot.png)
+
 # Findings
 
 Although my finding on the S&P were inconclusive, my FTSE model was improved by more than 2%. 
 
 Given that this was a relatively simple framework, I would make the business recommendation that this was worth some further investigation. Due to the stociatic nature of LSTM models (giving slightly different results everytime), the first step would be to invest in some extra computing power (cloud computing would my recommeded option) to train these models repeated, and get a more conclusive result into the power of this method.
 
-<details><summary>After adding Newspaper Data</summary>
-<img src='Pictures/After.png'>
-</details>
+![](Pictures/After.png)
 
 Please feel free to look through my ProjectNotebook file for a much more detailed look at the project, or simply read my blog post of a walk through my project:
 
