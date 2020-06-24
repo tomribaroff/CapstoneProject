@@ -11,3 +11,5 @@ APIfunction.py is a python code file which I wrote, which includes the functions
 Headlines.csv is a CSV file which I created, saving the information which I requested from the API, after my edits
 
 nyt_news_data is a folder containing text files of the responses I got from the NYT API - it was better to save, than make the same repeated requests
+
+Improving Stock Market Predictions...pdf is a short pdf of slides I used in presentation
