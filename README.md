@@ -28,6 +28,8 @@ https://medium.com/@tomribaroff/improving-stock-market-predictions-using-natural
 
 ProjectNotebook.ipynb is a Jupyter Notebook File with detailed code of the entire project. It includes the Abstract for project's results, as well as an in depth look at the code involved. 
 
+Obtain&Scrub is a Jupyter Notebook file on the Data Collection part of this work. It is separate from the main notebook as the file was getting too large. 
+
 UnusedCode.ipynb is a Jupyter Notebook File with code that I didn't use in my final analysis, but that I think might be useful for anyone else working on this/a similar project. 
 
 APIfunction.py is a python code file which I wrote, which includes the functions I used as part of my analysis on my API responses
