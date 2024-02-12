@@ -4,9 +4,7 @@ In this project, I attempted to improve LSTM models making predictions on the pr
 
 First, I build baseline models to predict the movement of these two indexes, training the model only on past prices.
 
-Then, I analysed the tone of Newspaper Headlines over the same period of time, using TextBlob, a NLP Toolkit.
-
-Finally, I incorporated this new data into the models, to see if it improved their predictive power.
+Using the public API's produced by some newspapers, I was able to source decades of headlines for the UK and the US. I performed Sentiment Analysis on the tone of Newspaper Headlines over the same period of time, using TextBlob, and incorporated this new data into original models, to see if it improved their predictive power.
 
 ![](Pictures/BaselineFTSEPlot.png)
 
