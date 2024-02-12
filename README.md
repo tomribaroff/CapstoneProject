@@ -12,9 +12,11 @@ Finally, I incorporated this new data into the models, to see if it improved the
 
 # Findings
 
-Although my finding on the S&P were inconclusive, my FTSE model was improved by more than 2%. 
+My FTSE model was improved by more than 2% (MSE), a statistically significant amount (p-value ~0.01).
 
-Given that this was a relatively simple framework, I would make the business recommendation that this was worth some further investigation. Due to the stociatic nature of LSTM models (giving slightly different results everytime), the first step would be to invest in some extra computing power (cloud computing would my recommeded option) to train these models repeated, and get a more conclusive result of the power of this method.
+We would expect these results, given that our Newspaper Headline Data for the UK was of good quality, which ought to have given us some added insight into the state of the world. However, this effect is clearly small, for a small amount of effort. This could easily be scaled up. 
+
+Given that this was a relatively simple framework, I would make the business recommendation that this was worth some further investigation. 
 
 ![](Pictures/After.png)
 
